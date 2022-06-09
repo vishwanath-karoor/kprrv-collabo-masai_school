@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav bar GitCollab demo</title>
+    <style> 
+
+       #navbar{
+          width:100%;
+          height : 85px;
+          margin: auto;
+          display: flex;
+          justify-content: space-around;
+          margin-top: 25px;
+       }
+     
+      #navbar > div:first-child{
+          width: 15%;
+          height: 80%;
+          background-color: whitesmoke;
+        }
+       #navbar > div:last-child{
+           width:70%;
+           height: 80%;
+           display: flex;
+           justify-content: space-evenly;
+        }
+
+       #navbar > div{
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           text-transform:uppercase;
+           font-weight: bold;
+            border:1px solid whitesmoke ;
+           border-radius: 5px;
+       }
+
+       h5{
+           width:15%;
+           height: 50%;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           border:1px solid greenyellow;
+           border-radius: 5px;
+           background-color: whitesmoke;
+        }
+
+        select{
+            border:1px solid green;
+        }
+        
+    </style>
+
+</head>
+<body>
+      <div id="navbar"> 
+
+         <div>
+            <h4>Git Collab 01 DEmo</h4>
+         </div>
+
+         <div>
+            <select> 
+                <option value="">Student List</option>
+                <option value=""> 1.Vishwanath N K</option>
+                <option value=""> 2. Raja</option>
+                <option value=""> 3. Kurra Koteswararao </option>
+                <option value=""> 4.Pradeep Mc </option>
+                <option value=""> 5.Riyaz Mohammad </option>
+            </select>
+             <h5>Mens page</h5>
+             <h5>Womens page</h5>
+             <h5>Sign Up </h5>
+             <h5>Login</h5>
+        </div>
+
+      </div>
+</body>
+</html>
